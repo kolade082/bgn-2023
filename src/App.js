@@ -32,6 +32,8 @@ import About from './components/About';
 import Navigation from './components/Navigation';
 import './App.css'; // Import the CSS file
 import EventCreationForm from './components/EventCreationForm';
+import Calendar from './components/Calendar';
+
 import StudentActivityCreationForm from './components/StudentActivityCreationForm';
 const App = () => {
   return (
@@ -43,6 +45,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/EventCreationForm" element={< EventCreationForm />} />
+          <Route path="/Calendar" element={< Calendar/>} />
           <Route path="/StudentActivityCreationForm" element={< StudentActivityCreationForm />} />
         </Routes>
       </div>

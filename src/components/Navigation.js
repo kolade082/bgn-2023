@@ -14,6 +14,9 @@ const Navigation = () => {
         <Link to="/EventCreationForm">Event Creation Form</Link>
         </li>
         <li>
+        <Link to="/Calendar">Calendar</Link>
+        </li>
+        <li>
           <Link to="/StudentActivityCreationForm">Student Activity Creation Form</Link>
           </li>
       </ul>
