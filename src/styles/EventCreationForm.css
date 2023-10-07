@@ -1,0 +1,41 @@
+
+h1{
+  text-align: center;
+  font: product sans;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color:#4285F4
+}
+
+.form-container {
+    margin-top: 2rem;  
+    display: grid;
+
+}
+
+.form-label {
+    
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+button {
+ margin-left:  656px;
+  width: 200px;
+  padding: 0.5rem;
+  background-color: #4285F4;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+}
