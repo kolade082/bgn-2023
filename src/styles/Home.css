@@ -1,0 +1,98 @@
+/* Home.css */
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Home Page Styles */
+  .home-container {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  p {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+  
+  .features {
+    margin-top: 30px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  li {
+    font-size: 1.2rem;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Feature Icon Styles */
+  .feature-icon {
+    width: 260px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    padding: 20px;
+  }
+  
+  .feature-icon:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-icon img {
+    max-width: 80px;
+    max-height: 80px;
+    margin-bottom: 10px; /* Add spacing between image and text */
+  }
+  
+  /* Center and align text within the feature icon container */
+  .feature-icon-text {
+    text-align: center;
+  }
+  
+  .feature-icon h3 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  
+  .feature-icon p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  /* Call to Action (CTA) Styles */
+  .cta {
+    background-image: url('../images/view-University-of-Oxford-England-Oxfordshire.jpg.webp'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center
+  }
