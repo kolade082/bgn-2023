@@ -33,15 +33,10 @@ const EventCreationForm = () => {
       <h1>Event Creation Form(Societies)</h1>
       <form onSubmit={handleSubmit}>
         <ul>
-          <li><label class="form-label">Society Name
-           <input
-                type="text"
-                name="eventName"
-                value={formData.societyName}
-                onChange={handleChange}
-              />
-            </label>
-          </li>
+          <li><label class="form-label">
+            Society Name  
+            <input type="text" name="societyName" value={formData.societyName} onChange={handleChange} />
+          </label></li>
           <li>
             <label class="form-label">Event Name
               <input
