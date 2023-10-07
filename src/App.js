@@ -30,8 +30,8 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import About from './components/About';
 import Navigation from './components/Navigation';
+import Explore from './components/Explore'
 import './App.css'; // Import the CSS file
-
 const App = () => {
   return (
     <Router>
@@ -41,6 +41,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
+          <Route path="/explore" element={<Explore />} />
         </Routes>
       </div>
     </Router>
