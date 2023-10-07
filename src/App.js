@@ -32,7 +32,7 @@ import About from './components/About';
 import Navigation from './components/Navigation';
 import './App.css'; // Import the CSS file
 import EventCreationForm from './components/EventCreationForm';
-
+import StudentActivityCreationForm from './components/StudentActivityCreationForm';
 const App = () => {
   return (
     <Router>
@@ -43,6 +43,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/EventCreationForm" element={< EventCreationForm />} />
+          <Route path="/StudentActivityCreationForm" element={< StudentActivityCreationForm />} />
         </Routes>
       </div>
     </Router>

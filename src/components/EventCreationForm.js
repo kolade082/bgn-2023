@@ -76,12 +76,7 @@ const EventCreationForm = () => {
 
           <li>
             <label class="form-label">Event Location
-              <input
-                type="text"
-                name="eventLocation"
-                value={formData.eventLocation}
-                onChange={handleChange}
-              />
+             <input type="text" name="eventLocation" value={formData.eventLocation} onChange={handleChange} />
             </label>
           </li>
           <li>
@@ -118,3 +113,4 @@ const EventCreationForm = () => {
   );
 };
 export default EventCreationForm;
+

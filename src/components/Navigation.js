@@ -18,6 +18,9 @@ const Navigation = () => {
         <li>
         <Link to="/EventCreationForm">Event Creation Form</Link>
         </li>
+        <li>
+          <Link to="/StudentActivityCreationForm">Student Activity Creation Form</Link>
+          </li>
       </ul>
     </nav>
   );
